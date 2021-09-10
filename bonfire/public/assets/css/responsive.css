@@ -1,0 +1,20 @@
+/* Large desktop : 1200px. */
+/* Normal desktop : 1024px. */
+@media all and (max-width: 1024px) {
+  /*Header*/
+  .header-top-inner .header-top-left {
+    display: none;
+  }
+  .header-down-inner .header-down-left .text1 p {
+    display: none;
+  }
+  /*End header*/
+  /*Main*/
+  /*End main*/
+  /*Footer*/
+  /*End footer*/
+}
+/* Tablet desktop : 768px. */
+/* Large Mobile : 425px. */
+/* Normal mobile : 375px. */
+/* Small mobile : 320px. */

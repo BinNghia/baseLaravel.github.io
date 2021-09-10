@@ -1,0 +1,257 @@
+.footer {
+  margin-top: -7px;
+  background-color: #333;
+  &-top {
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 64px 0;
+      .footer-top-left {
+
+      }
+      nav {
+        ul {
+          transform: translate(-11px,40px);
+          li {
+            display: inline-block;
+            margin: 0 15px;
+            a {
+              font-family: 'Fira Sans', monospace;
+              font-size: 13px;
+              font-weight: 700;
+              color: #ababab;
+              text-transform: uppercase;
+              letter-spacing: 2px;
+            }
+            a:hover {
+              color: #d6ba8d;
+              cursor: pointer;
+            }
+          }
+          .active {
+            a {
+              color: #d6ba8d;
+            }
+          }
+        }
+      }
+      .footer-top-right {
+        width: 158px;
+        height: 40px;
+        border: 2px solid #696969;
+        text-align: center;
+        line-height: 35px;
+        transform: translate(2px,40px);
+        a {
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 14px;
+          font-weight: 700;
+          color: #ababab;
+          text-transform: uppercase;
+          letter-spacing: 2.1px;
+          i {
+            color: #d6ba8d;
+            font-size: 14px;
+            padding-left: 13px;
+          }
+        }
+      }
+    }
+  }
+  &-down {
+    &-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #2b2b2b;
+      padding-bottom: 70px;
+      .footer-down-left{
+        padding-top: 43px;
+        p {
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 14px;
+          color: #696969;
+          font-weight: 400;
+          line-height: 30px;
+        }
+      }
+      .footer-down-right {
+        padding-top: 12px;
+        ul {
+          display: flex;
+          li {
+            a {
+              position: relative;
+              width: 48px;
+              height: 48px;
+              display: block;
+              align-items: center;
+              text-align: center;
+              margin-left: 9.5px;
+              line-height: 33px;
+              border: 2px solid #4c4c4c;
+              border-radius: 50%;
+              padding: 6px;
+              box-sizing: border-box;
+              text-decoration: none;
+              .fab {
+                color: #ababab;
+                font-size: 12px;
+              }
+              .fab:hover {
+                color: #333;
+              }
+            }
+            a:hover {
+              background: #d6ba8d;
+            }
+          }
+        }
+      }
+    }
+  }
+  &-mobile {
+    .row {
+      .col {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        padding: 15px 15px;
+        color: #fff;
+        .links {
+          h2 {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 2px;
+            padding-bottom: 15px;
+          }
+          ul {
+            li {
+              padding: 3px 0;
+              a{
+                font-family: 'Fira Sans', sans-serif;
+                font-size: 14px;
+                font-weight: 400;
+                color: #999;
+              }
+              a:hover {
+                color: #d6ba8d;
+              }
+            }
+            .active-a {
+              a {
+                color: #d6ba8d;
+              }
+            }
+          }
+        }
+        .about {
+          h2 {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 2px;
+            padding-bottom: 15px;
+          }
+          ul {
+            position: relative;
+            margin-top: -5px;
+            li {
+              padding: 5px 0;
+              display: flex;
+              align-items: center;
+              span {
+                padding-right: 10px;
+                    i {
+                      text-align: center;
+                      width: 26px;
+                      height: 26px;
+                      border: 2px solid #efefef;
+                      font-size: 12px;
+                      color: #999;
+                      line-height: 21px;
+                    }
+                    i:hover {
+                      color: #d6ba8d;
+                      border: 2px solid #d6ba8d;
+                    }
+              }
+              p {
+                a {
+                  font-family: 'Fira Sans', sans-serif;
+                  font-size: 12px;
+                  font-weight: 400;
+                  color: #999;
+                }
+                a:hover {
+                  color: #d6ba8d;
+                }
+              }
+            }
+            .active-a {
+              span {
+                i {
+                  color: #d6ba8d;
+                  border: 2px solid #d6ba8d;
+                }
+              }
+              p {
+                a {
+                  color: #d6ba8d;
+                }
+              }
+            }
+          }
+        }
+        .contact {
+          h2 {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 16px;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 2px;
+            padding-bottom: 15px;
+          }
+          ul {
+            position: relative;
+            li {
+              padding: 3px 0;
+              display: flex;
+              span {
+                position: relative;
+                font-family: 'Fira Sans', sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+                color: #999;
+                i {
+                  padding-right: 10px;
+                }
+                i:hover {
+                  color: #d6ba8d;
+                }
+              }
+              p {
+                a {
+                  font-family: 'Fira Sans', sans-serif;
+                      font-size: 12px;
+                      font-weight: 400;
+                      color: #999;
+                }
+              }
+            }
+          }
+        }
+      }
+      .span {
+        padding: 0 0 10px 15px;
+        font-family: 'Fira Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #999;
+      }
+    }
+  }
+}
